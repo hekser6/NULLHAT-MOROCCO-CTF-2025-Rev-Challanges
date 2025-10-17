@@ -8,6 +8,6 @@ release: $(SOURCE) cryptosystem.hpp meta_random.hpp
 	strip $(TARGET)
 
 clean:
-	rm -f $(TARGET) $(TARGET)_debug
+	rm -f $(TARGET)
 
-.PHONY: all release debug clean test
+.PHONY: all release
